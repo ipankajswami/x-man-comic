@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Book</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <audio autoplay loop>
+        <source src="/sound/wolverine_origins.mp3" type="audio/ogg">
+        <source src="/sound/wolverine_origins.mp3" type="audio/mp3">
+      </audio>
+      
+      <audio id="snikt">
+        <source src="/sound/wolverine_snikt (1).mp3" type="audio/ogg">
+        <source src="/sound/wolverine_snikt (1).mp3" type="audio/mp3">
+      </audio>
+    <nav>
+        <img src="/img/logo.png" alt="">
+    </nav>
+
+    <div class="hero outer">
+        <div class="inner">
+            <img src="/img/bann.png" alt="bann img">
+        </div>
+        <div class="inner text-era">
+            <h1>Wolverine</h1>
+            <p>Wolverine, whose birth name is James Howlett (also known as James Logan or simply Logan) is a fictional
+                superhero appearing in American comic books published by Marvel Comics, primarily in association with
+                the X-Men. He is a mutant who possesses animal-tuned senses, enhanced physical abilities, powerful
+                regeneration abilities known as a healing factor, and three retractable claws on each hand.</p>
+                <button onmouseover="document.getElementById('snikt').play();" >Read Know</button>
+            </div>
+
+    </div>
+
+
+
+    <div class="comic outer">
+        
+      <div class="comic-head">      <h2>Most Popular Comics</h2>
+        </div>
+
+        <div class="comic-item">
+            <img onmouseover="document.getElementById('snikt').play();" src="/img/1.jpg" alt="1">
+            <img  onmouseover="document.getElementById('snikt').play();" src="/img/2.jpg" alt="2">
+            <img onmouseover="document.getElementById('snikt').play();" src="/img/3.jpg" alt="3">
+        </div>
+    </div>
+
+
+</body>
+
+</html>
